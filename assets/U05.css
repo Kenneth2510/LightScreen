@@ -1,0 +1,296 @@
+
+
+/* ------------------Ticket Summary----------------- */
+.U05-TicketSummary {
+    position: relative;
+    top: 100px;
+}
+
+.U00-title {
+    position: relative;
+    /* background: grey; */
+    width: 90%;
+    margin: 0 5%;
+    border-bottom: 2px solid rgba(227,239,245, 0.6);
+}
+
+.U00-title h1 {
+    color: #e3eff5;
+    text-transform: uppercase;
+    font-size: 60px;
+    padding: 60px 0 0 50px;
+}
+
+.U05-Container {
+    position: relative;
+    left: 8vw;
+    top: 4.5vh;
+    width: 89vw;
+    padding: 0 0 30px;
+    /* background: #e3eff5;
+    height: 800px; */
+}
+
+.U05-MovieDetails {
+    margin: 0;
+}
+
+.U05-MovieDetails h1 {
+    font-size: 45px;
+    color: #e3eff5;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.U05-MovieDetails ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.U05-MovieDetails ul li {
+    font-size: 25px;
+    color: #e3eff5;
+    font-weight: 500;
+    margin: 0 10px;
+}
+
+.U05-Ticket {
+    width: 100%;
+    height: 150px;
+    border: 3px solid rgba(227,239,245, 1);
+    border-radius: 5px;
+    margin: 15px 0 0;
+    padding: 0 10px;
+}
+
+.U05-Ticket_Data {
+    font-size: 30px;
+    color: #e3eff5;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.U05-Ticket_Data:nth-of-type(1) {
+    width: 340px;
+    height: 140px;
+    /* padding-left: 5px; */
+    text-transform: uppercase;
+    /* background: red; */
+}
+
+.U05-Ticket_Data:nth-of-type(2) {
+    width: 360px;
+    height: 140px;
+    line-height: 20px;
+    /* background: green; */
+}
+
+.U05-Ticket_Data:nth-of-type(3) {
+    width: 200px;
+    height: 140px;
+    /* background: orange; */
+}
+
+.U05-Ticket_Data:nth-of-type(4) {
+    width: 320px;
+    height: 140px;
+    /* background: violet; */
+}
+
+.U05-Ticket_Data:nth-of-type(5) {
+    width: 220px;
+    height: 140px;
+    /* background: yellow; */
+}
+
+.U05-Ticket_Data:nth-of-type(6) {
+    width: 240px;
+    height: 140px;
+    line-height: 20px;
+    padding-left: 75px;
+    /* background: blue; */
+}
+
+
+.U05-Ticket_Data:nth-of-type(2) h3 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+.U05-Ticket_Data:nth-of-type(2) p {
+    font-size: 25px;
+    padding-left: 25px;
+    font-weight: 300;
+}
+
+
+.U05-Ticket_Data:nth-of-type(6) h3 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+.U05-Ticket_Data:nth-of-type(6) p {
+    font-size: 25px;
+    padding-left: 25px;
+    font-weight: 300;
+}
+
+.U05-btnSeatMap {
+    width: 200px;
+    height: 75px;
+    background: #191e29;
+    border: 2px solid #e3eff5;
+    border-radius: 5px;
+    cursor: pointer;
+
+    font-size: 25px;
+    color: #e3eff5;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.U05-btnSeatMap:hover {
+    background:#e3eff5;
+    color:#191e29;
+}
+
+.flexbox {
+    display: flex;
+}
+
+.flexbox.sb {
+    display: flex;
+    justify-content: space-between;
+}
+
+.U05-PriceSummary {
+    width: 800px;
+    height: 240px;
+    /* background: red; */
+    margin: 75px 35px 0 0;
+}
+
+.U05-TicketPrice ,
+.U05-HandlingAmountPrice , 
+.U05-TotalPrice {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 60px;
+    border-top: 2px solid rgba(227,239,245, 1);
+}
+
+.U05-TicketPrice h4 ,
+.U05-HandlingAmountPrice h4, 
+.U05-TotalPrice h4 {
+    font-size: 25px;
+    color: #e3eff5;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-left: 15px;
+}
+
+.U05-TicketPrice h3,
+.U05-HandlingAmountPrice h3, 
+.U05-TotalPrice h3 {
+    font-size: 25px;
+    color: #e3eff5;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.U05-PaymentMethods {
+    margin: 0;
+}
+
+.U05-PaymentMethods h3{
+    font-size: 30px;
+    color: #e3eff5;
+    font-weight: 500;
+}
+
+.U05-Payment {
+    width: 150px;
+    height: 50px;
+    background: #e3eff5;
+    margin: 5px 15px 0;
+}
+
+.U05-Agree_Consent {
+    margin: 25px 0 0;
+    border-top: 2px solid rgba(227,239,245, 1);
+    padding: 5px 15px; 
+    /* background: #e3eff5; */
+}
+
+.U05-Agree_Consent h3 {
+    font-size: 20px;
+    color: #e3eff5;
+    font-weight: 400;
+}
+
+.U05-Agree_Consent h3 a {
+    font-size: 20px;
+    color: #e3eff5;
+    font-weight: 400;
+}
+
+.U05-Terms_Conditions , .U05-Consent {
+    display: flex;
+    align-items: start;
+    margin: 25px 0 20px 15px;
+}
+
+.U05-checkTerms_Conditions , .U05-checkConsent {
+    transform: scale(2);
+}
+
+.U05-Terms_Conditions p, .U05-Consent p {
+    color: #e3eff5;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 0 0 0 15px;
+    margin: -10px 0 0;
+}
+
+.U05-Terms_Conditions a {
+    color: #e3eff5;
+}
+
+.U05-Buttons {
+    margin: 50px 0 0px;
+}
+
+.U05-btnReturn , .U05-btnProceed {
+    width: 300px;
+    height: 75px;
+    border-radius: 5px;
+    border: none;
+    margin: 0 15px;
+    cursor: pointer;
+
+    font-size: 20px;
+    color: #191e29;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.U05-btnReturn {
+    background: #191e29;
+    color: #e3eff5;
+    border: 2px solid rgba(227,239,245, 1);
+}
+
+.U05-btnReturn:hover {
+    background:rgba(227,239,245, 0.3);
+}
+
+.U05-btnProceed:hover {
+    background: rgba(25,30,41 , 0.3);
+    border: 2px solid rgba(227,239,245, 1);
+    color: #e3eff5;
+}

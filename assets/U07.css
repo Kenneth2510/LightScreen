@@ -1,0 +1,157 @@
+/* ------------registration---------- */
+.U07-Registration {
+    position: relative;
+    top: 100px;
+}
+
+.U07-title {
+    position: relative;
+    /* background: grey; */
+    width: 90%;
+    margin: 0 5%;
+    border-bottom: 2px solid rgba(227,239,245, 0.6);
+}
+
+.U07-title h1 {
+    color: #e3eff5;
+    text-transform: uppercase;
+    font-size: 60px;
+    padding: 20px 0 0 50px;
+}
+
+.U07-Container {
+    position: relative;
+    left: 10vw;
+    top: 4.5vh;
+    width: 80vw;
+    padding: 0 0 50px;
+    /* background: #e3eff5; */
+}
+
+.flexbox {
+    display: flex;
+}
+
+.flexbox.sb {
+    display: flex;
+    justify-content: space-between;
+}
+
+.U07-Username_Password , .U07-Personal_Information , 
+.U07-ContactInfo , .U07-Agree_Consent {
+    margin: 0 0 35px;
+    position: relative;
+    width: 100%;
+    /* background:red;  */
+}
+
+.U07-Username_Password h3, .U07-Personal_Information h3, 
+.U07-ContactInfo h3 {
+    font-size: 35px;
+    font-weight: 500;
+    color: #e3eff5;
+    margin: 0 0 25px;
+    text-transform: uppercase;
+    width: 685px;
+    border-bottom: 2px solid rgba(227,239,245, 0.6);
+}
+
+.U07-Username , .U07-Password , .U07-Password_Confirm ,
+.U07-FirstName , .U07-LastName , .U07-Birthday , 
+.U07-Email , .U07-Mobile {
+    color:#e3eff5;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 0 0 0 15px;
+}
+
+.U07-txtUsername , .U07-txtPassword , .U07-txtPassword_Confirm ,
+.U07-txtFirstName , .U07-txtLastName , 
+.U07-txtEmail , .U07-txtMobile {
+    margin: 0 0 0 15px;
+    width: 685px;
+    height: 75px;
+    border-radius: 5px;
+    background:rgba(227,239,245, 0.9);
+
+    font-size: 25px;
+    padding: 10px;
+    color:#191e29;
+}
+
+
+.U07-txtBirthday {
+    margin: 0 0 0 15px;
+    width: 300px;
+    height: 75px;
+    border-radius: 5px;
+    background:rgba(227,239,245, 0.9);
+
+    font-size: 25px;
+    padding: 10px;
+    color:#191e29;
+}
+
+
+.U07-Agree_Consent {
+    margin: 100px 0 0;
+    border-top: 2px solid rgba(227,239,245, 0.6);
+}
+
+.U07-Terms_Conditions , .U07-Consent {
+    display: flex;
+    align-items: start;
+    margin: 25px 0 20px 15px;
+    /* background: red; */
+}
+
+.U07-Terms_Conditions p , .U07-Consent p {
+    color: #e3eff5;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 0 0 0 15px;
+    margin: -10px 0 0;
+}
+
+.U07-checkTerms_Conditions , .U07-checkConsent {
+    transform: scale(2);
+}
+
+.U07-Terms_Conditions a {
+    color: #e3eff5;
+}
+
+.U07-Buttons {
+    margin: 50px 0 0px;
+}
+
+.U07-btnCancel , .U07-btnRegister {
+    width: 300px;
+    height: 75px;
+    border-radius: 5px;
+    border: none;
+    margin: 0 15px;
+    cursor: pointer;
+
+    font-size: 20px;
+    color: #191e29;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.U07-btnCancel {
+    background: #191e29;
+    color: #e3eff5;
+    border: 2px solid rgba(227,239,245, 1);
+}
+
+.U07-btnCancel:hover {
+    background:rgba(227,239,245, 0.3);
+}
+
+.U07-btnRegister:hover {
+    background: rgba(25,30,41 , 0.3);
+    border: 2px solid rgba(227,239,245, 1);
+    color: #e3eff5;
+}

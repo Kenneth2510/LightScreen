@@ -1,0 +1,129 @@
+
+
+/* ------------------login area----------------- */
+.U06-Review {
+    position: relative;
+    top: 100px;
+}
+
+.U00-title {
+    position: relative;
+    /* background: grey; */
+    width: 90%;
+    margin: 0 5%;
+    border-bottom: 2px solid rgba(227,239,245, 0.6);
+}
+
+.U00-title h1 {
+    color: #e3eff5;
+    text-transform: uppercase;
+    font-size: 60px;
+    padding: 0 0 0 50px;
+}
+.flexbox {
+    display: flex;
+}
+
+.U06-container {
+    position: relative;
+    left: 7vw;
+    top: 4.5vh;
+    width: 85vw;
+    padding: 0 0 30px;
+    /* background: gray;
+    height: 1000px; */
+
+}
+
+.U06-MovieDetails {
+    /* background: red; */
+    margin: 0;
+}
+  
+.U06-MoviePoster {
+    width: 350px;
+    height: 550px; 
+    margin: 30px 100px 20px;
+    background: blue;
+}
+
+.U06-MovieTitle {
+    margin: 25px 0 0;
+    text-align: center;
+}
+
+.U06-Title {
+    font-size: 50px;
+    color: #e3eff5;
+}
+
+.flexbox{
+    display:flex;
+}
+
+.U06-Reviewarea{
+    position: relative;
+    width: 1000px;
+}
+
+.U06-Review h2 {
+    font-size: 60px;
+    color:#e3eff5;
+}
+
+.U06-star_review {
+    margin: 0;
+}
+
+.fa-star{
+    font-size: 40px;
+    margin: 20px 5px;
+    color: gray;
+    cursor: pointer;
+}
+
+.fa-star.checked {
+    color: yellow;
+}
+
+.fa-star:hover {
+    color: yellow;
+}
+
+.U06-Reviewtextbox{
+    max-height: 500px;
+    max-width: 1050px; 
+    height: 500px;
+    width: 100%;
+    margin: 10px 0px;
+    background: rgba(10, 107, 119, 0.4);
+    font-size: 30px;
+    color: #e3eff5;
+}
+
+.U06-submit {
+    margin: 0;
+}
+
+.U06-btnSubmit{
+    height: 60px;
+    width: 200px;
+    border-radius: 5px;
+    margin: 0px 0px 0px 60px;
+    font-weight: 50px;
+    font-size: 20px;
+    color: #e3eff5;
+    background-color: #0A6B77;
+    border-color: #e3eff5;
+} 
+
+.U06-btnSubmit:hover {
+    background: #191e29;
+    color:#e3eff5;
+    
+}
+
+.flexbox.right{
+    display:flex;
+    justify-content: right;
+}

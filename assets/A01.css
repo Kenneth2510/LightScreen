@@ -1,0 +1,87 @@
+
+/* -----------------dashboard------------ */
+.A01-Dashboard {
+    position: relative;
+    top: 100px;
+}
+
+.A01-title {
+    position: relative;
+    /* background: grey; */
+    width: 90%;
+    margin: 0 5%;
+    border-bottom: 2px solid rgba(227,239,245, 0.6);
+}
+
+.A01-title h1 {
+    color: #e3eff5;
+    text-transform: uppercase;
+    font-size: 60px;
+    padding: 20px 0 0 50px;
+}
+
+.A01-Container {
+    position: relative;
+    left: 22vw;
+    top: 4.5vh;
+    width: 73vw;
+    /* background: #e3eff5; */
+}
+
+.A01-Dailyinfo {
+    margin: 0;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.A01-dailystat {
+    width: 325px;
+    height: 250px;
+    border-radius: 5px;
+    background:#e3eff5;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0 0;
+}
+
+.A01-MovieSched {
+    margin: 0;
+}
+
+.A01-NowShowingMovie {
+    width: 685px;
+    height: 200px;
+    border-radius: 5px;
+    margin: 0 0 30px;
+    background: #e3eff5;
+}
+
+.A01-UpcomingMovieSched {
+    width: 685px;
+    height: 200px;
+    border-radius: 5px;
+    background: #e3eff5;
+}
+
+.A01-datetime{
+    margin:0;
+}
+
+.A01-Time {
+    width: 685px;
+    height: 100px;
+    border-radius: 5px;
+    margin: 0 0 30px;
+    background: #e3eff5;
+}
+
+.A01-Calendar {
+    width: 685px;
+    height: 300px;
+    border-radius: 5px;
+    background: #e3eff5;
+}

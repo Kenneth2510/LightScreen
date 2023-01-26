@@ -1,0 +1,46 @@
+/* -----------------admin nav-bar------------- */
+
+header {
+    z-index: 999;
+}
+
+.A00-navbar {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    z-index: 999;
+    background: #191e29;
+}
+
+.A00-user {
+    margin: 0 0 0 30px;
+    /* placeholder */
+}
+
+.fa-solid {
+    color: #e3eff5;
+    font-size: 32px;
+}
+
+.A00-nav_items {
+    margin: 0;
+}
+
+.A00-nav_items ul {
+    list-style-type: none;
+    display: flex;
+    margin-right: 30px;
+}
+
+.A00-nav_items ul li {
+    padding: 0 15px;
+}
+
+.A00-nav_items ul li a {
+    cursor: pointer;
+}
+
+

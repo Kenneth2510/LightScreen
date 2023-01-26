@@ -1,0 +1,152 @@
+
+/* -------------statistics------- */
+.A08-Statistics{
+    position: relative;
+    top: 100px;
+}
+
+.A01-title {
+    position: relative;
+    /* background: grey; */
+    width: 90%;
+    margin: 0 5%;
+    border-bottom: 2px solid rgba(227,239,245, 0.6);
+}
+
+.A01-title h1 {
+    color: #e3eff5;
+    text-transform: uppercase;
+    font-size: 60px;
+    padding: 20px 0 0 50px;
+}
+
+.A08-Container {
+    position: relative;
+    left: 22vw;
+    top: 4.5vh;
+    width: 73vw;
+    height: 800px;
+    /* background: #e3eff5; */
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.A08-ScreeningsReport, .A08-SalesReport {
+    position: relative;
+    width: 685px;
+    margin: 0;
+}
+
+.A08-ScreeningsReport h3 , .A08-SalesReport h3{
+    color: #e3eff5;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.A08-ScreeningNum , .A08-SalesNum{
+    Width: 685px;
+    height: 100px;
+    background: #e3eff5;
+    border-radius: 5px;
+    margin: 15px 0;
+}
+
+.A08-Stat2 {
+    margin: 40px 0;
+}
+
+.A08-Stat2 h3 {
+    color: #e3eff5;
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0 0 15px;
+}
+
+.A08-HighestGrossingGraph {
+    width: 1000px;
+    height: 500px;
+    background: #e3eff5;
+    border-radius: 5px;
+}
+
+.A08-HighestGrossingMovie {
+    width: 375px;
+    height: 500px;
+}
+
+.A08-HGTop3 {
+    width: 375px;
+    height: 150px;
+    background: #e3eff5;
+    margin: 0 0 25px;
+    border-radius: 5px;
+}
+
+.A08-TopRatedMovies {
+    margin: 40px 0;
+}
+
+.A08-TopRatedMovies h3 {
+    color: #e3eff5;
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0 0 15px;
+}
+
+.A08-TopRatedMoviesGraph {
+    width: 1400px;
+    height: 600px;
+    background: #e3eff5;
+}
+
+.A08-Stat3 {
+    margin: 40px 0;
+}
+
+.A08-MovieGoers h3 , .A08-Refunds h3 {
+    color: #e3eff5;
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0 0 15px;
+}
+
+.A08-MovieGoersNum , .A08-RefundNum {
+    width: 685px;
+    height: 500px;
+    background: #e3eff5;
+    border-radius: 5px;
+}
+
+.A08-Stat4 {
+    margin: 40px 0;
+}
+
+.A08-NowShowing_Upcoming , .A08-DateTime {
+    width: 685px;
+}
+
+.A08-NowShowing , .A08-Upcoming {
+    width: 685px;
+    height: 215px;
+    background: #e3eff5;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+
+.A08-Time {
+    width: 685px;
+    height: 100px;
+    background: #e3eff5;
+    border-radius: 5px;
+    margin: 15px 0;
+}
+
+.A08-Calendar {
+    width: 685px;
+    height: 330px;
+    background: #e3eff5;
+    border-radius: 5px;
+}

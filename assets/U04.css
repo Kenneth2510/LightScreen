@@ -1,0 +1,370 @@
+
+/* ------------------Ticket Process----------------- */
+.U04-TicketProcess {
+    position: relative;
+    top: 100px;
+}
+
+.U04-Container {
+    position: relative;
+    left: 4vw;
+    top: 4.5vh;
+    width: 92vw;
+    padding: 0 0 30px;
+    /* background: #e3eff5;
+    height: 800px; */
+}
+
+.U04-MovieDetails {
+    margin: 0;
+    position: relative;
+    display: flex;
+    /* background: white; */
+}
+
+.U04-MoviePoster {
+    width: 350px;
+    height: 550px;
+    margin: 0 0 0 50px;
+    background: grey;
+}
+
+.U04-MovieTextDetails {
+    margin: 0 25px;
+    width: 1400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background:darkolivegreen; */
+}
+
+.U04-TextDetails {
+    margin: 0;
+}
+
+.U04-TextDetails h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #e3eff5;
+}
+
+.U04-TextDetails p {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #e3eff5;
+    line-height: 30px;
+}
+
+.U04-MovieSynopsis {
+    margin: 0;
+}
+
+.U04-MovieSynopsis h3 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #e3eff5;
+    line-height: 30px;
+}
+
+.U04-MovieSynopsis p {
+    font-size: 20px;
+    font-weight: 200;
+    color: #e3eff5;
+    padding: 5px 10px;
+}
+
+.U04-BuyTicketDescription {
+    margin: 0;
+}
+
+.U04-BuyTicketDescription h3 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #e3eff5;
+    line-height: 30px;
+}
+
+.U04-BuyTicketDescription p {
+    font-size: 20px;
+    font-weight: 200;
+    color: #e3eff5;
+    padding: 5px 10px;
+}
+
+.U04-TicketingPanel {
+    margin: 65px 0 0 50px;
+    /* background: red; */
+}
+
+.U04-TicketTable {
+    width: 1690px;
+    height: 140px;
+    border: 2px solid rgba(227,239,245, 1);
+    /* background:chocolate; */
+}
+
+.U04-Table {
+    margin: 15px 50px;
+    /* background: grey; */
+}
+
+.U04-TicketTable-Category {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #e3eff5;
+    line-height: 30px;
+    text-align: left;
+}
+
+.U04-TicketTable-Category:nth-of-type(1) {
+    width: 700px;
+    /* background: red; */
+}
+
+.U04-TicketTable-Category:nth-of-type(2) {
+    width: 500px;
+    /* background: blue; */
+}
+
+.U04-TicketTable-Category:nth-of-type(3) {
+    width: 380px;
+    /* background: pink; */
+}
+
+.U04-TicketTable-Data {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #e3eff5;
+    line-height: 30px;
+    text-align: left;
+    padding: 20px 0 0;
+}
+
+.U04-TicketNum {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #191e29;
+    line-height: 30px;
+    text-align: left;
+    padding: 0 5px 0;
+}
+
+.U04-Next {
+    margin: 30px 25px 0 0;
+    display: flex;
+    justify-content: right;
+}
+
+.U04-btnNext {
+    width: 250px;
+    height: 75px;
+    background: #191e29;
+    border: 2px solid #e3eff5;
+    border-radius: 10px;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #e3eff5;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.U04-btnNext:hover {
+    background: #e3eff5;
+    border: 2px solid #191e29;
+    color: #191e29;
+}
+
+.U04-SeatSelection {
+    margin: 60px 0 150px;
+    /* background:darkmagenta; */
+    height: 90vh;
+}
+
+.U04-SeatCategories {
+    margin: 0 0 0 50px;
+}
+
+.U04-SeatCategories h3 { 
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #e3eff5;
+}
+
+.U04-Categories {
+    display: flex;
+    justify-content: center;
+}
+
+.U04-Seat-Available , 
+.U04-Seat-Selected , 
+.U04-Seat-Unavailable {
+    margin: 25px 100px 0;   
+    display: flex;
+    align-items: center;
+}
+
+.U04-Available , 
+.U04-Selected , 
+.U04-Unavailable {
+    width: 55px;
+    height: 55px;
+    margin: 0 25px;
+    background: #e3eff5;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.U04-Seat-Available p , 
+.U04-Seat-Selected p, 
+.U04-Seat-Unavailable p {
+    font-size: 25px;
+    font-weight: 300;
+    color: #e3eff5;
+}
+
+.U04-Available.available {
+    background:rgba(227,239,245, 0.5);
+}
+
+.U04-Selected.selected {
+    background:rgba(227,239,245, 1);
+}
+
+.U04-Unavailable.unavailable {
+    background:rgba(5, 79, 96, 1);
+}
+
+.U04-MovieHallMap {
+    margin: 40px 0 0;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.U04-Screen {
+    background: #fff;
+    height: 75px;
+    width: 600px;
+    margin: 10px 0 60px;
+    transform: rotateX(-48deg);
+    box-shadow: 0 3px 10px rgba(255,255,255,0.7);
+
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.flexbox {
+    display: flex;
+}
+
+.U04-SeatRows {
+    display: grid;
+    grid-template-rows: repeat(8, 60px);
+    padding: 0 0 0 50px;
+    text-align: center;
+}
+
+.U04-SeatRows h3 {
+    font-size: 30px;
+    font-weight: 600;
+    padding: 5px 0 0;
+    color: #e3eff5;
+}
+
+.U04-Seats {
+    margin: 0 65px;
+    display: grid;
+    grid-template-columns: [first] 350px [line2] 750px [line3] 350px;
+}
+
+.U04-Seats-LeftSide {
+    display: grid;
+    grid-template-columns: repeat(5, 60px);
+    justify-self: start;
+}
+
+.U04-Seats-Center {
+    display: grid;
+    grid-template-columns: repeat(10, 60px);
+    justify-self: center;
+}
+
+.U04-Seats-RightSide {
+    display: grid;
+    grid-template-columns: repeat(5, 60px);
+    justify-self: end;
+}
+
+.U04-SeatColumns {
+    display: grid;
+    grid-template-rows: repeat(8, 60px);
+    text-align: center;
+}
+
+.U04-SeatNo {
+    width: 50px;
+    height: 50px;
+    margin: 0 25px 0;
+    background:rgba(227,239,245, 0.5);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    cursor: pointer;
+}
+
+.U04-SeatNo.available {
+    background:rgba(227,239,245, 0.5);
+}
+
+.U04-SeatNo.selected {
+    background:rgba(227,239,245, 1);   
+}
+
+.U04-SeatNo.unavailable {
+    background:rgba(5, 79, 96, 1);
+}
+
+.U04-SeatNo:not(.unavailable):hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.U04-SeatNo.selected {
+    transform: scale(1.2);
+}
+
+.U04-Proceed {
+    margin: 35px 25px 0;
+    display: flex;
+    justify-content: right;
+}
+
+.U04-btnProceed {
+    width: 250px;
+    height: 75px;
+    background: #191e29;
+    border: 2px solid #e3eff5;
+    border-radius: 10px;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #e3eff5;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.U04-btnProceed:hover {
+    background: #e3eff5;
+    border: 2px solid #191e29;
+    color: #191e29;
+}

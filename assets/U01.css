@@ -1,0 +1,539 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    z-index: 1;
+}
+
+body{
+    background: #191e29;
+    max-width: 1920px;
+}
+
+
+/* -----------------nav-bar------------- */
+
+header {
+    z-index: 999;
+}
+
+.U00-navbar {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    background: #191e29;
+    z-index: 999;
+}
+
+.U00-user {
+    margin: 0 0 0 30px;
+    /* placeholder */
+}
+
+.fa-solid {
+    color: #e3eff5;
+    font-size: 32px;
+}
+
+.U00-nav_items {
+    margin: 0;
+}
+
+.U00-nav_items ul {
+    list-style-type: none;
+    display: flex;
+    margin-right: 30px;
+}
+
+.U00-nav_items ul li {
+    padding: 0 15px;
+}
+
+.U00-nav_items ul li a {
+    cursor: pointer;
+}
+
+.U00-SearchMovie , .U00-SearchSchedule {
+    width: 350px;
+    height: 50px;
+    background: rgba(227,239,245, 1);
+    border-radius: 5px;
+
+    font-size: 20px;
+    color: #191e29;
+    padding: 0 0 0 10px;
+}
+
+
+
+/* ------------------Homepage----------------- */
+.U01-Homepage {
+    position: relative;
+    top: 100px;
+}
+
+.U01-Container {
+    position: relative;
+    left: 4vw;
+    top: 4.5vh;
+    width: 92vw;
+    padding: 0 0 30px;
+    /* background: #e3eff5;
+    height: 800px; */
+}
+
+.U01-MovieBanner {
+    position: relative;
+    margin: 0;
+}
+
+.U01-FeaturedMovie {
+    margin: 0;
+    display: flex;
+}
+
+.U01-MoviePoster {
+    width: 350px;
+    height: 550px;
+    margin: 0 0 0 50px;
+    background: grey;
+}
+
+.U01-MovieDetails {
+    margin: 35px 35px 0;
+    width: 1400px;
+    /* background: darkolivegreen; */
+}
+
+.U01-MovieDetails h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #e3eff5;
+}
+
+.U01-MovieDetails p {
+    font-size: 20px;
+    font-weight: 200;
+    color: #e3eff5;
+    padding: 5px 10px;
+}
+
+.flexbox {
+    display: flex;
+}
+
+.U01-Duration , .U01-Year{
+    margin: 15px 15px;
+    display: flex;
+    align-items: center;
+}
+
+.fa-clock {
+    color: #e3eff5;
+    font-size: 25px;
+}
+
+.U01-Year h6 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #e3eff5;
+}
+
+.U01-TrailerButton {
+    margin: 25px 50px 0;
+}
+
+.U01-btnWatchTrailer {
+    width: 250px;
+    height: 75px;
+    background: #0A6B77;
+    border: 2px solid #e3eff5;
+    border-radius: 10px;
+    color: #e3eff5;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-size: 600;
+    cursor: pointer;
+}
+
+.U01-FeaturedMovie-Schedule {
+    margin: 100px 0 0 -3.9vw;
+    width: 99vw;
+    height: 21vh;
+    background: rgba(255,255,255, 0.5);
+    display: flex;
+}
+
+.U01-AvailableSched {
+    margin: 50px 45px 0;
+    display: flex;
+
+}
+
+.U01-AvailableSched-Dates , 
+.U01-AvailableSched-Times {
+    margin: 0 150px 0;
+}
+
+.U01-AvailableSched-Dates h3,
+.U01-AvailableSched-Times h3{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.U01-AvailableDates , 
+.U01-AvailableTime {
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    width: 100px;
+    margin: 0 20px;
+    /* background: red; */
+}
+
+.U01-AvailableDates.active , 
+.U01-AvailableTime.active {
+    border-bottom: 10px solid red;
+} 
+
+.U01-BookTicketsButton {
+    margin: 75px 0 0;
+}
+
+.U01-btnBookTickets {
+    width: 250px;
+    height: 75px;
+    background: #0A6B77;
+    border: 2px solid #e3eff5;
+    border-radius: 10px;
+    color: #e3eff5;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-size: 600;
+    cursor: pointer;
+}
+
+.U01-btnWatchTrailer:hover ,
+.U01-btnBookTickets:hover {
+    background: #191e29;
+    color: #e3eff5;
+
+}
+
+.U01-NowShowing {
+    position: relative;
+    margin: 50px 0;
+    height: 90vh;
+}
+
+.U01-NowShowing-Title {
+    display: flex;   
+    justify-content: space-between;
+    align-items: end;
+    border-bottom: 5px solid rgba(227,239,245, 0.5);
+}
+
+.U01-NSUp {
+    display: flex;
+    align-items: center;
+}
+
+.U01-NS.on {
+    margin: 0 0 -5px;
+    border-bottom: 5px solid #25bac7;
+}
+
+.U01-NS h1 {
+    font-size: 60px;
+    color:rgba(227,239,245, 1);
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.U01-Upcoming h3 {
+    font-size: 30px;
+    color: rgba(227,239,245, 1);
+    opacity: 0.5;
+    margin: 0 50px 0;
+    text-transform: uppercase;
+}
+
+.U01-Upcoming a {
+    text-decoration: none;
+    color: #e3eff5;
+}
+
+.U01-ShowAll {
+    margin: 0 25px;
+}
+
+.U01-ShowAll p {
+    font-size: 20px;
+    color: #e3eff5;
+    opacity: 0.3;
+    text-transform: uppercase;
+}
+
+.U01-ShowAll a {
+    text-decoration: none;
+    color: #e3eff5;
+}
+
+.U01-MovieList {
+    margin: 50px 50px 0;
+    display: flex;
+}
+
+.U01-MoviePanel {
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    margin: 0 125px 0;
+}
+
+.U01-ML-MoviePoster {
+    width: 300px;
+    height: 500px;
+    background: grey;
+}
+
+.U01-ML-MovieDetails {
+    margin: 25px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.U01-MovieSched {
+    height: 60px;
+    width: 200px;
+    border: 2px solid #0A6B77;
+    background: #0A6B77;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.U01-MovieSched h3 {
+    color: #e3eff5;
+    font-size: 25px;
+}
+
+.U01-ML-MovieTitle {
+    margin: 15px 0;
+}
+
+.U01-ML-MovieTitle h1 {
+    font-size: 30px;
+    color: #e3eff5;
+}
+
+.U01-ML-BuyTicketsButton {
+    margin: 0;
+}
+
+.U01-btnBuyTickets {
+    height: 75px;
+    width: 300px;
+    border-radius: 5px;
+    font-weight: 50px;
+    font-size: 25px;
+    color: #e3eff5;
+    background-color: #0A6B77;
+    border-color: #e3eff5;
+    cursor: pointer;
+}
+
+.U01-btnBuyTickets:hover{
+    background: #191e29;
+    color: #e3eff5;
+}
+
+
+.U01-TopRatedMovies {
+    position: relative;
+    margin: 25px 0;
+}
+
+.U01-TopRatedMovies-Title {
+    display: flex;   
+    justify-content: space-between;
+    align-items: end;
+    border-bottom: 5px solid rgba(227,239,245, 0.5);
+}
+
+.U01-TopRatedMovies-Title h1 {
+    font-size: 60px;
+    color:rgba(227,239,245, 1);
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.U01-TopRatedMovies-Title p {
+    font-size: 20px;
+    color: #e3eff5;
+    opacity: 0.3;
+    text-transform: uppercase;
+}
+
+.U01-TopRatedMovies-Title a {
+    text-decoration: none;
+    color: #e3eff5;
+}
+
+.U01-TopRated-List {
+    margin: 15px 0 0;
+}
+
+.U01-TopRated-Movie {
+    margin: 50px 0;
+    display: flex;
+}
+
+.U01-TopRatedMovie-Poster {
+    width: 350px;
+    height: 550px;
+    margin: 0 0 0 50px;
+    background: grey;
+}
+
+.U01-TopRatedMovie-Details {
+    width: 1400px;
+    margin: 0 35px 0;
+    padding: 100px 0 0;
+    /* background: darkmagenta; */
+}
+
+.U01-TopRatedMovie-Details h2 {
+    font-size: 60px;
+    color: #e3eff5;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.flexbox.sb {
+    justify-content: space-between;
+}
+
+.U01-TopRatedMovie-Ratings {
+    display: flex;
+    align-items: center;
+    margin: 0 25px 0;
+}
+
+.U01-TopRatedMovie-Ratings h5 {
+    font-size: 25px;
+    color: #e3eff5;
+    font-weight: 500;
+    margin: 0 35px 0;
+}
+
+.U01-TopRatedMovie-Details p {
+    font-size: 25px;
+    font-weight: 300;
+    color: #e3eff5;
+    margin: 35px 0 0;
+}
+
+.U01-TopRatedMovie-Details h6 {
+    font-size: 25px;
+    font-weight: 500;
+    color:#e3eff5;
+    margin: 35px 0 0;
+}
+
+
+
+/* ------footer------- */
+.U01-Footer {
+    position: relative;
+    top: 100px;
+}
+
+.U01-Footer-Container {
+    position: relative;
+    width: 100%;
+    margin: 50px 0 0;
+    padding: 65px 50px 25px;
+    background: #0E1015;   
+}
+
+.U01-Footer-Content {
+    /* background: yellow; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.U01-AboutUs , .U01-CustomerCare ,
+.U01-QuickLinks , .U01-TermsConditions , 
+.U01-FooterLogoarea , .U01-FollowUs {
+    margin: 0;
+    /* background: green; */
+    width: 225px;
+}
+
+.U01-AboutUs h3, .U01-CustomerCare h3,
+.U01-QuickLinks h3, .U01-TermsConditions h3 , 
+.U01-FollowUs h3 {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0 0 15px;
+    color: #e3eff5;
+}
+
+.U01-AboutUs p, .U01-CustomerCare p,
+.U01-QuickLinks p, .U01-TermsConditions p , 
+.U01-FollowUs p {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 5px 10px;
+    color: #e3eff5;
+    cursor: pointer;
+}
+
+.U01-FooterLogoarea {
+    margin: 0;
+}
+
+.U01-FooterLogo {
+    width: 250px;
+    height: 250px;
+    background: grey;
+}
+
+.U01-FollowUs-Facebook ,
+.U01-FollowUs-Twitter ,
+.U01-FollowUs-Instagram ,
+.U01-FollowUs-Email {
+    display: flex;
+    align-items: center;
+    margin: 0 5px 10px;
+    color: #e3eff5;
+}
+
+.fa-facebook , .fa-twitter ,
+.fa-instagram , .fa-envelope {
+    font-size: 30px;
+    margin: -12.5px 10px 0 0;
+    color: #e3eff5;
+    cursor: pointer;
+}
+
+.U01-AboutUs p:hover, 
+.U01-CustomerCare p:hover,
+.U01-QuickLinks p:hover, 
+.U01-TermsConditions p:hover, 
+.U01-FollowUs p:hover {
+    padding: 0 10px 0;
+    font-weight: 600;
+    transition: 0.5s;
+}

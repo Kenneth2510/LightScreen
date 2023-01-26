@@ -1,0 +1,164 @@
+
+/* -------------Add Movie------- */
+.A09-AddMovie{
+    position: relative;
+    top: 100px;
+}
+
+.A01-title {
+    position: relative;
+    /* background: grey; */
+    width: 90%;
+    margin: 0 5%;
+    border-bottom: 2px solid rgba(227,239,245, 0.6);
+}
+
+.A01-title h1 {
+    color: #e3eff5;
+    text-transform: uppercase;
+    font-size: 60px;
+    padding: 20px 0 0 50px;
+}
+
+.A09-Container {
+    position: relative;
+    left: 22vw;
+    top: 4.5vh;
+    width: 73vw;
+    padding: 0 0 50px;
+    /* height: 800px; */
+    /* background: #e3eff5; */
+}
+
+.flexbox {
+    display: flex;
+}
+
+.A09AddMovie_input {
+    margin: 0;
+}
+
+.A09-MovieTitle , .A09-MovieDescription , 
+.A09-Duration , .A09-ReleaseDate , 
+.A09-Casts , .A09-Director , 
+.A09-Genre  , .A09-Category , 
+.A09-MoviePoster , .A09-MovieTrailer {
+    margin: 0 0 35px;
+    position: relative;
+    width: 1400px;
+}
+
+.A09-MovieTitle h3 , .A09-MovieDescription h3 , 
+.A09-Duration h3 , .A09-ReleaseDate h3, 
+.A09-Casts h3 , .A09-Director h3 , 
+.A09-Genre h3 , .A09-Category h3 , 
+.A09-MoviePoster h3 , .A09-MovieTrailer h3{
+    font-size: 35px;
+    font-weight: 500;
+    color: #e3eff5;
+    margin: 0 0 10px;
+}
+
+.A09-txtTitle {
+    width: 1400px;
+    height: 75px;
+    background: none;
+    border: 2px solid rgba(10,107,119, 0.65);
+    font-size: 25px;
+    color: #e3eff5;
+    padding: 0 10px;
+}
+
+.A09-txtDescription {
+    width: 1400px;
+    height: 400px;
+    max-height: 400px;
+    max-width: 1400px;
+    background: none;
+    border: 2px solid rgba(10,107,119, 0.65);
+    font-size: 25px;
+    color: #e3eff5;
+    padding: 10px;
+}
+
+
+.A09-txtTime_hr , .A09-txtTime_min {
+    width: 150px;
+    height: 75px;
+    background: none;
+    border: 2px solid rgba(10,107,119, 0.65);
+    font-size: 25px;
+    color: #e3eff5;
+    padding: 10px;
+    text-align: center;
+}
+
+.A09-Duration .flexbox h3 {
+    padding: 0 15px;
+}
+
+.A09-txtDate {
+    width: 300px;
+    height: 75px;
+    background: none;
+    border: 2px solid rgba(10,107,119, 0.65);
+    font-size: 25px;
+    color: #e3eff5;
+    padding: 10px;
+    text-align: center;
+}
+
+.A09-txtCasts , .A09-txtDirector {
+    width: 1400px;
+    height: 75px;
+    background: none;
+    border: 2px solid rgba(10,107,119, 0.65);
+    font-size: 25px;
+    color: #e3eff5;
+    padding: 0 10px;
+}
+
+.A09-txtGenre , .A09-txtCategory {
+    width: 685px;
+    height: 75px;
+    background: none;
+    border: 2px solid rgba(10,107,119, 0.65);
+    font-size: 25px;
+    color: #e3eff5;
+    padding: 10px;
+}
+
+.A09-fileMoviePoster , .A09-fileMovieTrailer {
+    width: 1400px;
+    height: 75px;
+    background: none;
+    border: 2px solid rgba(10,107,119, 0.65);
+    font-size: 25px;
+    color: #e3eff5;
+    padding: 10px;
+}
+
+.A09-Buttons {
+    width: 1400px;
+    border-top: 2px solid rgba(227,239,245, 0.6);
+    margin: 75px 0 0;
+    text-align: center;
+}
+
+.A09-Cancel , .A09-Confirm {
+    width: 350px;
+    height: 75px;
+    margin: 45px 15px 0;
+    border-radius: 5px;
+    background: #191e29;
+    border: 2px solid rgba(10,107,119, 0.65);
+
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #e3eff5;
+}
+
+.A09-Cancel:hover , .A09-Confirm:hover {
+    background: rgba(10,107,119, 0.65);
+}

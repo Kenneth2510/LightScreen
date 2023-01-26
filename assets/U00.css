@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    z-index: 1;
+}
+
+body{
+    background: #191e29;
+    max-width: 1920px;
+}
+
+
+/* -----------------nav-bar------------- */
+
+header {
+    z-index: 999;
+}
+
+.U00-navbar {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    background: #191e29;
+    z-index: 999;
+}
+
+.U00-user {
+    margin: 0 0 0 30px;
+    /* placeholder */
+}
+
+.fa-solid {
+    color: #e3eff5;
+    font-size: 32px;
+}
+
+.U00-nav_items {
+    margin: 0;
+}
+
+.U00-nav_items ul {
+    list-style-type: none;
+    display: flex;
+    margin-right: 30px;
+}
+
+.U00-nav_items ul li {
+    padding: 0 15px;
+}
+
+.U00-nav_items ul li a {
+    cursor: pointer;
+}
+
+.U00-SearchMovie , .U00-SearchSchedule {
+    width: 350px;
+    height: 50px;
+    background: rgba(227,239,245, 1);
+    border-radius: 5px;
+
+    font-size: 20px;
+    color: #191e29;
+    padding: 0 0 0 10px;
+}
+
+
+
+/* ------------------login area----------------- */
+.U00-loginarea {
+    position: relative;
+    top: 100px;
+}
+
+.U00-title {
+    position: relative;
+    /* background: grey; */
+    width: 90%;
+    margin: 0 5%;
+    border-bottom: 2px solid rgba(227,239,245, 0.6);
+}
+
+.U00-title h1 {
+    color: #e3eff5;
+    text-transform: uppercase;
+    font-size: 60px;
+    padding: 60px 0 0 50px;
+}
+
+.U00-loginareatext {
+    position: relative;
+    /* background: grey; */
+    width: 85%;
+    margin: 5vh 7.5% 0;
+}
+
+.U00-loginarea_title {
+    position: relative;
+    border-bottom: 2px solid rgba(227,239,245, 0.6);
+}
+
+.U00-loginarea_title h3 {
+    color: #e3eff5;
+    text-transform: uppercase;
+    font-size: 42px;
+}
+
+.U00-Login {
+    margin: 30px 10px;
+}
+
+.U00-inputfield {
+    margin: 0 0 30px;
+    /* background: grey; */
+}
+
+.U00-username , .U00-password {
+    color: #e3eff5;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.U00-txtusername , .U00-txtpassword {
+    color: #191e29;
+    font-size: 30px;
+    width: 70%;
+    height: 70px;
+    margin: 5px 0;
+    padding: 0 0 0 20px;
+    border-radius: 7px;
+}
+
+.U00-SignUp_ForgotPass {
+    margin: 40px 100px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.U00-SignUp_ForgotPass a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.U00-SignUp , .U00-ForgotPass {
+    color: #e3eff5;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.U00-submit {
+    position: relative;
+    width: 90vw;
+    /* background: grey; */
+    margin: 0 -2.5vw 0;
+    border-top: 2px solid rgba(227,239,245, 0.6);
+    padding: 70px 0 0;
+    text-align: center;
+}
+
+.U00-signin_btn {
+    width: 500px;
+    height: 100px;
+    border-radius: 15px;
+    border-style: none;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.U00-signin_btn:hover {
+    color: #e3eff5;
+    background: #191e29;
+    border: 1px solid #e3eff5;
+}

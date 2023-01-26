@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    z-index: 1;
+}
+
+body{
+    background: #191e29;
+    max-width: 1920px;
+} 
+
+
+/* -----------------nav-bar------------- */
+
+header {
+    z-index: 999;
+}
+
+.U00-navbar {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    background: #191e29;
+    z-index: 999;
+}
+
+.U00-user {
+    margin: 0 0 0 30px;
+    /* placeholder */
+}
+
+.fa-solid {
+    color: #e3eff5;
+    font-size: 32px;
+}
+
+.U00-nav_items {
+    margin: 0;
+}
+
+.U00-nav_items ul {
+    list-style-type: none;
+    display: flex;
+    margin-right: 30px;
+}
+
+.U00-nav_items ul li {
+    padding: 0 15px;
+}
+
+.U00-nav_items ul li a {
+    cursor: pointer;
+}
+
+.U00-SearchMovie , .U00-SearchSchedule {
+    width: 350px;
+    height: 50px;
+    background: rgba(227,239,245, 1);
+    border-radius: 5px;
+
+    font-size: 20px;
+    color: #191e29;
+    padding: 0 0 0 10px;
+}
+
+
+
+/* ------------------login area----------------- */
+.U02-Single-Movie {
+    position: relative;
+    top: 100px;
+}
+
+.U00-title {
+    position: relative;
+    /* background: grey; */
+    width: 90%;
+    margin: 0 5%;
+    border-bottom: 2px solid rgba(227,239,245, 0.6);
+}
+
+.U00-title h1 {
+    color: #e3eff5;
+    text-transform: uppercase;
+    font-size: 60px;
+    padding: 60px 0 0 50px;
+}
+.flexbox {
+    display: flex;
+}
+
+.U02-container{
+    position: relative;
+    left: 5%;
+    width: 93vw;
+    /* background: violet; */
+}
+
+/* .movie-poster{
+     width: 480px;
+    height: 650px;  
+    width: 1000px;
+    height: 650px;
+    margin: 20px 0px 20px 90px;
+    background: blue;
+} */
+
+.U02-MoviePoster {
+    width: 350px;
+    height: 550px;
+    margin: 0 0 0 10px;
+    background: grey;
+}
+
+.U02-MovieDetails{
+    display: flex;
+}
+
+.U02-mov-title{
+    font-size: 50px;
+    font-weight: bold;
+    color: #e3eff5;
+    margin: 0px 0px 0px 20px ;
+}
+
+.U02-sched{
+    font-size: 30px;
+    font-weight: bold;
+    color: #e3eff5;
+    margin: 0px 0px 0px 20px ; 
+}
+
+.U02-movie-desc{
+    margin: 10px 10px 0px 30px;
+    font-size: 25px;
+    text-align: justify;
+    color: #e3eff5; 
+}
+
+.U02-button{
+    height: 75px;
+    width: 300px;
+    border-radius: 5px;
+    margin: 0px 0px 0px 60px;
+    font-weight: 50px;
+    font-size: 20px;
+    color: #e3eff5;
+    background-color: #0A6B77;
+    border-color: #e3eff5;
+}
+
+.U02-date, .U02-age, .U02-duration{
+    color: #e3eff5;
+    margin: 30px 0px 0px 20px; 
+    font-size: 20px;
+    width: 100px;
+
+}
+
+.U02-age{
+    border: 2px solid gray;
+    background-color: gray;
+}
+
+.U02-details{
+    display: flex;
+}
+
+.U02-desc{
+    margin: 20px 0 0 0;
+}
+
+.U02-cast, .U02-director, .U02-genre, .U02-rated, .U02-review{
+    margin: 10px 0 0 0;
+    font-size: 25px;
+}
+
+.U02-watch{
+    display: flex;
+    margin: 85px 0 0;
+    justify-content: right;
+}
+
+.U02-ratings{
+    display: flex;
+    align-items: center;
+}
+
+.U02-stars{
+   margin: 0 35px; 
+}
+
+.fa-star{
+    font-size: 35px;
+}
+
+.fa-star.active{
+    color: yellow;
+}
+
+.U02-upcoming{
+    border-bottom: 2px solid #e3eff5 ;
+    border-top: 2px solid #e3eff5;
+    font-size: 30px;
+    margin: 30px 0;
+    color: #e3eff5;
+}
+
+.U02-poster {
+    width: 300px;
+    height: 500px;
+    margin: 0 0 0 10px;
+    background: grey;
+}
+
+.U02-upc{
+    display: flex;
+    margin: 75px 0 0 0;
+}
+
+.U02-contents{
+    margin: 0 130px;
+}
+.U02-buy-tix{
+    margin: 20px 10px;
+    width: 300px;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background: blue; */
+}
+
+.U02-poster-date{
+    height: 75px;
+    width: 200px;
+    border: 2px solid #0A6B77;
+    background: #0A6B77;
+    color: #e3eff5;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 25px;
+}
+
+.U02-poster-title{
+    font-size: 30px;
+    color: #e3eff5;
+    margin: 30px 0;
+}
+
+.U02-buy-button{
+    height: 75px;
+    width: 300px;
+    border-radius: 5px;
+    font-weight: 50px;
+    font-size: 25px;
+    color: #e3eff5;
+    background-color: #0A6B77;
+    border-color: #e3eff5;
+    cursor: pointer;
+}
+
+.U02-buy-button:hover{
+    background: #191e29;
+    color: #e3eff5;
+}
+
+.U02-cust{
+    border-bottom: 2px solid #e3eff5 ;
+    border-top: 2px solid #e3eff5;
+    font-size: 30px;
+    margin: 40px 0;
+    color: #e3eff5;
+} 
+
+.U02-rev{
+    margin: 35px 35px;
+    display: flex;
+    
+}
+.U02-rev-review{
+    border: 2px solid #e3eff5;
+    background: #191e29;
+    color: #e3eff5;
+    width: 650px;
+    height: 700px;
+    margin: 0 100px 0;
+}

@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    z-index: 1;
+}
+
+body{
+    background: #191e29;
+    max-width: 1920px;
+}
+
+
+
+/* ------------------login area----------------- */
+.A00-loginarea {
+    position: relative;
+    top: 100px;
+}
+
+.A00-title {
+    position: relative;
+    /* background: grey; */
+    width: 90%;
+    margin: 0 5%;
+    border-bottom: 2px solid rgba(227,239,245, 0.6);
+}
+
+.A00-title h1 {
+    color: #e3eff5;
+    text-transform: uppercase;
+    font-size: 60px;
+    padding: 60px 0 0 50px;
+}
+
+.A00-loginareatext {
+    position: relative;
+    /* background: grey; */
+    width: 85%;
+    margin: 5vh 7.5% 0;
+}
+
+.A00-loginarea_title {
+    position: relative;
+    border-bottom: 2px solid rgba(227,239,245, 0.6);
+}
+
+.A00-loginarea_title h3 {
+    color: #e3eff5;
+    text-transform: uppercase;
+    font-size: 42px;
+}
+
+.A00-Login {
+    margin: 30px 10px;
+}
+
+.A00-inputfield {
+    margin: 0 0 90px;
+}
+
+.A00-username , .A00-password {
+    color: #e3eff5;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.A00-txtusername , .A00-txtpassword {
+    color: #191e29;
+    font-size: 30px;
+    width: 70%;
+    height: 70px;
+    margin: 5px 0;
+    padding: 0 0 0 20px;
+    border-radius: 7px;
+}
+
+
+.A00-submit {
+    position: relative;
+    width: 90vw;
+    /* background: grey; */
+    margin: 0 -2.5vw 0;
+    border-top: 2px solid rgba(227,239,245, 0.6);
+    padding: 70px 0 0;
+    text-align: center;
+}
+
+.A00-signin_btn {
+    width: 500px;
+    height: 100px;
+    border-radius: 15px;
+    border-style: none;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.A00-signin_btn:hover {
+    color: #e3eff5;
+    background: #191e29;
+    border: 1px solid #e3eff5;
+}

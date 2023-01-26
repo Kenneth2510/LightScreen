@@ -1,0 +1,122 @@
+
+/* -------------Add Movie Hall------- */
+.A12-AddUser{
+    position: relative;
+    top: 100px;
+}
+
+.A01-title {
+    position: relative;
+    /* background: grey; */
+    width: 90%;
+    margin: 0 5%;
+    border-bottom: 2px solid rgba(227,239,245, 0.6);
+}
+
+.A01-title h1 {
+    color: #e3eff5;
+    text-transform: uppercase;
+    font-size: 60px;
+    padding: 20px 0 0 50px;
+}
+
+.A12-Container {
+    position: relative;
+    left: 22vw;
+    top: 4.5vh;
+    width: 73vw;
+    padding: 0 0 50px;
+    /* height: 800px; */
+    /* background: #e3eff5; */
+}
+
+
+.flexbox {
+    display: flex;
+}
+
+.flexbox.sb {
+    display: flex;
+    justify-content: space-between;
+}
+
+.A12-Username_Password , .A12-Personal_Information , 
+.A12-ContactInfo , .A12-Agree_Consent {
+    margin: 0 0 35px;
+    position: relative;
+    width: 100%;
+    /* background:red;  */
+}
+
+.A12-Username_Password h3, .A12-Personal_Information h3, 
+.A12-ContactInfo h3 {
+    font-size: 35px;
+    font-weight: 500;
+    color: #e3eff5;
+    margin: 0 0 25px;
+    text-transform: uppercase;
+    width: 685px;
+    border-bottom: 2px solid rgba(227,239,245, 0.6);
+}
+
+.A12-Username , .A12-Password , .A12-Password_Confirm ,
+.A12-FirstName , .A12-LastName , .A12-Birthday , 
+.A12-Email , .A12-Mobile {
+    color:#e3eff5;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 0 0 0 15px;
+}
+
+.A12-txtUsername , .A12-txtPassword , .A12-txtPassword_Confirm ,
+.A12-txtFirstName , .A12-txtLastName , 
+.A12-txtEmail , .A12-txtMobile {
+    margin: 0 0 0 15px;
+    width: 685px;
+    height: 75px;
+    border-radius: 5px;
+    background:rgba(227,239,245, 0.9);
+
+    font-size: 25px;
+    padding: 10px;
+    color:#191e29;
+}
+
+
+.A12-txtBirthday {
+    margin: 0 0 0 15px;
+    width: 300px;
+    height: 75px;
+    border-radius: 5px;
+    background:rgba(227,239,245, 0.9);
+
+    font-size: 25px;
+    padding: 10px;
+    color:#191e29;
+}
+
+.A12-Buttons {
+    width: 1400px;
+    border-top: 2px solid rgba(227,239,245, 0.6);
+    margin: 75px 0 0;
+    text-align: center;
+}
+
+.A12-Cancel , .A12-Confirm {
+    width: 350px;
+    height: 75px;
+    margin: 45px 15px 0;
+    border-radius: 5px;
+    background: #191e29;
+    border: 2px solid rgba(10,107,119, 0.65);
+
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #e3eff5;
+}
+
+.A12-Cancel:hover , .A12-Confirm:hover {
+    background: rgba(10,107,119, 0.65);
+}

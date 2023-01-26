@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    z-index: 1;
+}
+
+body{
+    background: #191e29;
+    max-width: 1920px;
+}
+
+
+/* -----------------nav-bar------------- */
+
+header {
+    z-index: 999;
+}
+
+.U00-navbar {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    background: #191e29;
+    z-index: 999;
+}
+
+.U00-user {
+    margin: 0 0 0 30px;
+    /* placeholder */
+}
+
+.fa-solid {
+    color: #e3eff5;
+    font-size: 32px;
+}
+
+.U00-nav_items {
+    margin: 0;
+}
+
+.U00-nav_items ul {
+    list-style-type: none;
+    display: flex;
+    margin-right: 30px;
+}
+
+.U00-nav_items ul li {
+    padding: 0 15px;
+}
+
+.U00-nav_items ul li a {
+    cursor: pointer;
+}
+
+.U00-SearchMovie , .U00-SearchSchedule {
+    width: 350px;
+    height: 50px;
+    background: rgba(227,239,245, 1);
+    border-radius: 5px;
+
+    font-size: 20px;
+    color: #191e29;
+    padding: 0 0 0 10px;
+}
+
+
+

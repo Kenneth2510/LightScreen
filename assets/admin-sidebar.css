@@ -1,0 +1,53 @@
+
+/* --------------admin-sidebar------------- */
+.A01-Sidebar {
+    position: fixed;
+    top: 25vh;
+    z-index: 999;
+}
+
+.A01-sidebar_item {
+    width: 350px;
+    height: 75px;
+    background: rgba(10,107,119, 0.65);
+    opacity: 0.65;
+    display: flex;
+    cursor: pointer;
+    position: relative;
+    border: none;
+}
+
+.A01-sidebar_item:hover {
+    opacity: 1;
+}
+
+.A01-sidebar_item.active {
+    opacity: 1.0;
+}
+
+.selected {
+    width: 15px;
+    height: 75px;
+    background: #25bac7;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+}
+
+.selected.on {
+    opacity: 1;
+}
+
+
+.A01-sidebar_item a {
+    width: 350px;
+    height: 75px;
+    font-size: 25px;
+    font-weight: 200;
+    /* font-style: italic; */
+    color: #e3eff5;
+    padding: 0 50px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}

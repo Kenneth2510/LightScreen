@@ -1,0 +1,87 @@
+
+
+/* ------footer------- */
+.U01-Footer {
+    position: relative;
+    margin-top: 100px;
+    bottom: 0px;
+}
+
+.U01-Footer-Container {
+    position: relative;
+    width: 100%;
+    margin: 50px 0 0;
+    padding: 65px 50px 25px;
+    background: #0E1015;   
+}
+
+.U01-Footer-Content {
+    /* background: yellow; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.U01-AboutUs , .U01-CustomerCare ,
+.U01-QuickLinks , .U01-TermsConditions , 
+.U01-FooterLogoarea , .U01-FollowUs {
+    margin: 0;
+    /* background: green; */
+    width: 225px;
+}
+
+.U01-AboutUs h3, .U01-CustomerCare h3,
+.U01-QuickLinks h3, .U01-TermsConditions h3 , 
+.U01-FollowUs h3 {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0 0 15px;
+    color: #e3eff5;
+}
+
+.U01-AboutUs p, .U01-CustomerCare p,
+.U01-QuickLinks p, .U01-TermsConditions p , 
+.U01-FollowUs p {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 5px 10px;
+    color: #e3eff5;
+    cursor: pointer;
+}
+
+.U01-FooterLogoarea {
+    margin: 0;
+}
+
+.U01-FooterLogo {
+    width: 250px;
+    height: 250px;
+    background: grey;
+}
+
+.U01-FollowUs-Facebook ,
+.U01-FollowUs-Twitter ,
+.U01-FollowUs-Instagram ,
+.U01-FollowUs-Email {
+    display: flex;
+    align-items: center;
+    margin: 0 5px 10px;
+    color: #e3eff5;
+}
+
+.fa-facebook , .fa-twitter ,
+.fa-instagram , .fa-envelope {
+    font-size: 30px;
+    margin: -12.5px 10px 0 0;
+    color: #e3eff5;
+    cursor: pointer;
+}
+
+.U01-AboutUs p:hover, 
+.U01-CustomerCare p:hover,
+.U01-QuickLinks p:hover, 
+.U01-TermsConditions p:hover, 
+.U01-FollowUs p:hover {
+    padding: 0 10px 0;
+    font-weight: 600;
+    transition: 0.5s;
+}
